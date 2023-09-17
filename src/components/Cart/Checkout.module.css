@@ -1,0 +1,109 @@
+.form{
+  margin:1rem 0;
+  height:19rem;
+  overflow:scroll;
+}
+
+.control{
+  margin-bottom:0.5rem;
+}
+
+.control label{
+  font-weight: bold;
+  margin-bottom:0.25rem;
+  display:block;
+}
+.control input{
+  font:inherit;
+  border:1px solid rgb(124, 191, 69);
+  border-radius:4px;
+  width:20rem;
+  max-width: 100%;
+}
+.actions button{
+  font:inherit;
+  color:#140a0a;
+  cursor:pointer;
+  background-color:rgb(111, 217, 154);
+  border:none;
+  border-radius: 25px;
+  padding:0.5rem 2 rem;
+}
+.actions button:hover,
+.actions button:active{
+  background-color: #b7822c ;
+}
+
+.actions .submit{
+  border:1px solid #5a1a01;
+  background-color: #810000;
+  color:rgb(189, 63, 63);
+}
+
+.invalid label{
+  color:#930f0f;
+}
+
+.invalid input{
+  border-color :#ff0000;
+  background-color: whitesmoke;
+}
+
+
+
+
+
+/* .form {
+   margin: 1rem 0;
+   height: 19rem;
+   overflow: scroll;
+ }
+
+ .control {
+   margin-bottom: 0.5rem;
+ }
+
+ .control label {
+   font-weight: bold;
+   margin-bottom: 0.25rem;
+   display: block;
+ }
+
+ .control input {
+   font: inherit;
+   border: 1px solid rgb(124, 191, 69);
+   border-radius: 4px;
+   width: 20rem;
+   max-width: 100%;
+ }
+
+ .actions button {
+   font: inherit;
+   color: #5a1a01;
+   cursor: pointer;
+   background-color: transparent;
+   border: none;
+   border-radius: 25px;
+   padding: 0.5rem 2rem;
+   
+ }
+
+ .actions button:hover,
+ .actions button:active {
+   background-color: #b7822c;
+ }
+
+ .actions .submit {
+   border: 1px solid #5a1a01;
+   background-color: #c83900;
+   color: rgb(9, 7, 7);
+ }
+
+ .invalid label {
+   color: #ca3e51;
+ }
+
+ .invalid input {
+   border-color: #ff0000;
+   background-color: rgb(27, 12, 12);
+ } */
